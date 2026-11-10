@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.DS_Store
+
+# Local tournament output can be large and round-specific.
+hand-history/hands*.jsonl
+hand-history/hands*.jsonl.gz
+*.zip
